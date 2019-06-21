@@ -17,7 +17,7 @@ def test():
     score = 0
     for question in questions:
         ans = input(question.prompt+"\n")
-        if ans == question.ans:
+        if question.validate(ans):
             score = score + 1
     return score
 
