@@ -1,0 +1,7 @@
+import sys
+
+print(sys.executable)
+print(sys.version)
+
+for i in [1, 2, 3]:
+    print(i)
